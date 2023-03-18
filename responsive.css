@@ -1,0 +1,157 @@
+@media(max-width:600px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* padding: 0; */
+    }
+    .header .list {
+        display: flex;
+        align-items: center;
+        column-gap: 10px !important
+    }
+    .header .one .list .lisItem .item {
+        font-size: 13px;
+    }
+    .header .two .button {
+        padding: 12px 17px;
+    }
+
+
+    .section {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .section .leftSide {
+        padding: 0;
+        width: 100%;
+    }
+    .section .leftSide h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .section .leftSide p {
+        font-size: 12px;
+        margin: 0;
+        width: 90%;
+    }
+    .section .leftSide .button {
+        margin: 0;
+    }
+
+    .section .rightSide img {
+        /* width: 100%; */
+        height: 500px;
+        width: 390px;
+    }
+
+    .section-two {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin: 30px 0;
+    }
+    .section-two .imgsOne {
+        column-gap: 15px;
+        padding: 30px 10px;
+    }
+
+    .our {
+        margin: 10px 25px;
+        text-align: center;
+    }
+    .our h3 {
+        width: 100%;
+    }
+
+
+    .section-three {
+        display: block;
+        
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+    .section-three .leftSide  {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-three .leftSide p{
+        width: 95%;
+        text-align: center;
+    }
+
+    .img-big .image img {
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        /* margin: 100px 0; */
+        width: 100%;
+        /* height: 140px; */
+        /* text-align: center; */
+    }
+
+
+    .section-four {
+        flex-direction: column;
+        margin: 100px 0;
+    }
+    .section-four .rightSide img {
+        width: 504px;
+        height: 376px;
+    }
+
+
+    .section-seven {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+
+    .section-eight {
+        flex-direction: column;
+
+    }
+
+    .section-eight .div {
+        margin-bottom: 70px;
+    }
+    
+
+    .section-twelve {
+        flex-direction: column;
+    }
+    .section-twelve .rightSide img {
+        width: 550px;
+        height: 804px;
+    }
+
+
+    .section-six .rightSide img {
+        width: 504px;
+        height: 476px;
+    }
+
+
+    .Lead {
+        flex-direction: column;
+    }
+
+
+    .footer {
+        column-gap: 60px;
+    }
+
+
+    .section--five .rightSide img {
+        
+    }
+
+    
+}
