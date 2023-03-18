@@ -118,10 +118,11 @@ body {
 }
 
 .section .rightSide {
-    height: 1000px;
-    width: 90%;
+    height: 500px;
+    width: 100%;
     background-image:  url("./img/IMAGE\ 1.jpg");
     background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 
