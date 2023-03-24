@@ -35,6 +35,10 @@ body {
 }
 
 
+.header .two {
+    display: flex;
+    
+}
 .header .two .list .listItem .item {
     font-family: 'Roboto';
     font-style: normal;
